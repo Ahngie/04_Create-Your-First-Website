@@ -2,33 +2,62 @@
     <head>
     <title>First Website</title>
     <link rel="shortcut icon" href="Theme.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
     <style>
         body{
             background-image:url("images/BG.jpeg") ;
         }
+        .float{
+        float: left;
+        margin: 40px;
+      }
+      .float2{
+        float: right;
+        margin: 40px;
+      }
     </style>
     </head>
     
     <body >
-        
-    <header>
-      <div class="logo">
-        <div class="big-screen">
-        <img src="images/Theme.png" alt="logo image">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="header">
+                <a href="#default" class="logo"><span style="color:orange">Biography</span></a>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> My First Website</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="formpage.html">Contact Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tablepage.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="listpage.html">Achievement and Prospects</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+            </div>
+        </nav>
+        <br>
+    
+     
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 ">LEARNING MORE ABOUT WEBDESIGN</div>
+                <div class="col-sm-6">This website is a summary of what i have learnt/understood so far.</div> 
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            
         </div>
-      </div>
-      <nav> 
-        <a href="index.html">Home </a>
-        <a href="formpage.html">Contact me </a>
-        <a href="tablepage.html">About me </a> 
-        <a href="listpage.html"> Achievement and Prospects </a><br/><br/>  
-</nav>
-
-</header>
-<center>
-    <h1>MY WEBSITE</h1>
-</center>
-        <p>This website is a summary of what i have learnt/understood so far.</p><br>
         
     </body>
     
